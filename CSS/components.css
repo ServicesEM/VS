@@ -1,0 +1,170 @@
+/*Simple Grid Component*/
+.gridcomponent {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #eeee;
+}
+.gridcontent {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.gridimage-container {
+    flex: 1;
+    overflow: hidden;
+}
+p#content-title {margin: 16px 10px}
+.gridimage-container img {
+    object-fit: cover;
+    height: 100% !important;
+}
+@media (max-width: 768px) {
+    .gridcomponent {flex-direction: column}
+}
+/*Banner w/ CTA Buttons*/
+.flight-component {
+    margin: auto;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.flight-buttons {
+    display: flex;
+    gap: 15px;
+}
+.flight-button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 2px solid #c00;
+    transition: background 0.3s, color 0.3s;
+}
+.flight-button.primary {
+    background-color: #c00;
+    color: #fff;
+}
+.flight-button.secondary {
+    background-color: #fff;
+    color: #c00;
+}
+.flight-button:hover {
+    background-color: #900;
+    color: #fff;
+    border-color: #900 !important;
+}
+@media (max-width: 768px) {
+    .flight-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/*Rewards Banner*/
+.reward-component {
+    margin: auto;
+    padding: 30px;
+    background-color: #4c1050;
+    border-radius: 10px;
+    color: #fff;
+}
+.reward-list {
+    list-style: none !important;
+    padding-left: 0;
+    margin-bottom: 25px !important;
+}
+.reward-component h2, .reward-component ul * {color: white !important}
+h3#reward-header {color: white !important}
+.reward-list li {
+    display: flex;
+    align-items: center;
+}
+.reward-list .icon {
+    font-family: 'Material Icons' !important;
+    font-size: 1.5rem !important;
+    margin-right: 10px;
+}
+.reward-list .icon::before {content: "check"}
+.reward-button {
+    padding: 12px 20px;
+    font-size: 1rem !important;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #222a33 !important;
+    transition: background 0.3s, color 0.3s;
+}
+.reward-button:hover {background-color: #e0e0e0}
+/*Three Colum Component*/
+.upper-class-button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.upper-class-button:hover {
+    background-color: black;
+    color: white;
+}
+.upper-class-container h3 {
+    margin: 15px 0 !important;
+    font-family: Gotham--Light !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+}
+.upper-class-container .row {margin-top: 30px}
+/*Footer Redesign*/
+.footer-redsgn {
+    background-color: #181b1f;
+    color: #ffffff;
+    padding: 5rem 8rem;
+    position: relative;
+    margin: auto -50vw -40px;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+}
+footer.footer-redsgn * {color: white !important}
+.footer-main.row ul {
+    list-style: none !important;
+    margin: 0!important;
+}
+.footer-main.row ul li a {text-decoration: none}
+.footer-main.row .footer-column.large ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.footer-main.row .footer-column.large ul li a {font-size: 26px}
+.footer-sections.col-sm-9 .footer-column.col-sm-4 ul li a {
+    font-weight: 300 !important;
+    font-size: 15px;
+}
+.footer-copy.row {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-copy.row p, 
+.footer-copy.row p a {
+    font-size: 14px !important;
+    margin: 0 !important;
+    line-height: 20px !important;
+}
+.footer-copy.row .col-sm-2 img.img-responsive {width: 60px}
+.footer-copylogos.row {margin-top: 5rem}
+.footer-copylogos.row .col-sm-4 p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer-copylogos.row .col-sm-4 .social-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px 20px;
+}
