@@ -1,0 +1,223 @@
+/*Hero Image*/
+.HeroImage {
+    position: relative;
+    max-width: inherit!important;
+}
+.HeroImage * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/*Premium Section*/
+section#premium {
+    max-width: inherit;
+    width: 100vw;
+    position: relative;
+    margin: auto -50vw;
+    left: 50%;
+    right: 50%;
+    background: #f5f5f6;
+}
+section#premium .upper-class-container {
+    margin: auto;
+    padding: 3rem 0 1rem;
+}
+/*Header Block*/
+.DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center {
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center div[data-em-cmp="dpa_headline"] {
+    max-width: 72rem;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+}
+.DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center div[data-em-cmp="dpa_headline"] > div > div.flex:only-child {
+    background: white;
+    padding: 48px 48px 40px !important;
+    max-width: 500px;
+}
+.DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center div[data-em-cmp="dpa_headline"] p[data-test="headline-subtitle"] {
+    background: #da0530;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 300;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+section#headerblock {
+    margin-bottom: -30px;
+}
+.FlightsBooking.lg\:max-w-6xl {
+    max-width: 100%;
+}
+.FlightsBooking.lg\:max-w-6xl .px-3.py-4 {
+    padding: 0;
+}
+.FlightsBooking.lg\:max-w-6xl .bg-center.bg-cover {
+    padding-bottom: 0 !important;
+    background: none !important;
+    padding-top: 0 !important;
+}
+.FlightsBooking.lg\:max-w-6xl .BookingMask {
+    background: #da0530;
+    padding: 50px 0 25px;
+}
+.FlightsBooking .flex.flex-wrap.w-full.flex-col.lg\:flex-row.pt-2\.5.items-start label.text-left.rtl\:text-right.block.truncate, 
+.FlightsBooking div[data-test="origin-container"] label.tracking-normal, 
+.FlightsBooking div[data-test="destination-container"] label.tracking-normal, 
+.FlightsBooking div[data-test="budget-container"] label.tracking-normal {
+    position: absolute;
+    top: -10px;
+    background-color: #fff;
+    padding: 0 5px;
+    margin-left: 5px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.FlightsBooking div[data-att="f1_origin"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
+.FlightsBooking div[data-att="f1_destination"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full,
+.FlightsBooking div[data-att="start-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full, 
+.FlightsBooking div[data-att="end-date-toggler"] > .flex.flex-wrap.w-full > .flex.flex-wrap.w-full {
+    border: 1px solid #808489;
+}
+.FlightsBooking button[data-att="search"]::before {
+    content: '\e8b6';
+    font-family: 'Material Icons';
+    direction: ltr;
+    font-size: 25px !important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    padding-right: 5px;
+    font-weight: 300;
+}
+/*Breadcrumbs*/
+.BreadCrumbs ol.breadcrumbs li a {
+    color: #da0530;
+}
+.BreadCrumbs ol.breadcrumbs li a:hover {
+    color: #b1062b;
+}
+/*Carousel DPA*/
+div[data-em-sfm-type="CAROUSEL"].economyclass .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 > .flex.flex-wrap.w-full.px-1 > .flex.flex-wrap.flex-col.w-full::before {
+    content: '';
+    border: 7px solid #da0530;
+}
+div[data-em-sfm-type="CAROUSEL"].premiumclass .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 > .flex.flex-wrap.w-full.px-1 > .flex.flex-wrap.flex-col.w-full::before {
+    content: '';
+    border: 7px solid #000000;
+}
+div[data-em-sfm-type="CAROUSEL"].uperclass .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 > .flex.flex-wrap.w-full.px-1 > .flex.flex-wrap.flex-col.w-full::before {
+    content: '';
+    border: 7px solid #4f145b;
+}
+div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 div[data-test="departing-text"] {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px !important;
+}
+div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap div[data-test="departing-text"]::before {
+    content: '\ebcc';
+    font-family: 'Material Icons';
+    direction: ltr;
+    font-size: 15px !important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    padding-right: 5px;
+}
+div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 > .flex.px-1.md\:px-2.md\:w-1\/4 > .flex.flex-wrap.flex-col.w-full > .flex.flex-wrap.w-full.flex-1 * {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+/*div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 > .flex.px-1.md\:px-2.md\:w-1\/4 > .flex.flex-wrap.flex-col.w-full > .flex.flex-wrap.w-full.flex-1 > .flex.flex-wrap.w-full.flex-col.self-end.justify-end * {
+    font-size: 12px !important;
+}*/
+div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 > .flex.px-1.md\:px-2.md\:w-1\/4 > .flex.flex-wrap.flex-col.w-full > .flex.flex-wrap.w-full.flex-1 > .flex.flex-wrap.w-full.flex-col.self-end.justify-end div[data-test="price"],
+div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap .carousel .flex.flex-wrap.h-full.py-2 > .flex.px-1.md\:px-2.md\:w-1\/4 > .flex.flex-wrap.flex-col.w-full > .flex.flex-wrap.w-full.flex-1 > .flex.flex-wrap.w-full.flex-col.self-end.justify-end div[data-test="redemption-amount"] {
+    font-size: 22px !important;
+    font-weight: 400;
+}
+/*Table DPA*/
+div[data-em-sfm-type="TABLE"] table.dpa-table {
+    border-collapse: separate;
+    border-spacing: 0 7px;
+}
+div[data-em-sfm-type="TABLE"] table.dpa-table thead tr th.leading-loose {
+    background: none;
+    border: none;
+}
+div[data-em-sfm-type="TABLE"] table.dpa-table tbody tr.leading-loose:hover {
+    background: #DA0530 !important;
+}
+div[data-em-sfm-type="TABLE"] table.dpa-table tbody tr.leading-loose {
+    border: none;
+    background: #f5f5f6;
+}
+div[data-em-sfm-type="TABLE"] table.dpa-table tbody tr.leading-loose td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+div[data-em-sfm-type="TABLE"] table.dpa-table tbody tr.leading-loose td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+div[data-em-sfm-type="TABLE"] table.dpa-table div[data-test="price"] {
+    font-weight: bold;
+}
+/*Interlinking Module*/
+.InterlinkRoutes ul.leading-loose.pb-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 15px;
+}
+.InterlinkRoutes ul.leading-loose.pb-4 > li.w-full {
+    width: max-content;
+    border: 1px solid #eaebec;
+    border-radius: 30px;
+    padding: 7px 15px;
+}
+.InterlinkRoutes ul.leading-loose.pb-4 > li.w-full > a {
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 0;
+}
+.InterlinkRoutes ul.leading-loose.pb-4 > li.w-full > a::before {
+    content: '\e905';
+    font-family: 'Material Icons';
+    direction: ltr;
+    font-size: 18px !important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    padding-right: 10px;
+}
+/*Weather Module*/
+.Weather .flex.flex-wrap .flex.md\:flex-row > .flex.flex-wrap.flex.overflow-hidden > .flex.flex-wrap.py-3 {
+    background: none;
+}
+.Weather .flex.flex-wrap .flex.md\:flex-row > .flex.flex-wrap.flex.overflow-hidden > .flex.flex-wrap.py-3 > i.weather__icon {
+    color: black;
+}
+.Weather .flex.flex-wrap .flex.md\:flex-row > .flex.flex-wrap.flex.overflow-hidden {
+    border-left: 2px solid #ccd4da;
+    margin: 0;
+    box-shadow: none;
+}
