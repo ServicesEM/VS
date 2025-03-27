@@ -8,7 +8,8 @@
     padding-right: 0 !important;
 }
 /*Premium Section*/
-section#premium {
+section#premium, 
+div#premiummodule {
     max-width: inherit;
     width: 100vw;
     position: relative;
