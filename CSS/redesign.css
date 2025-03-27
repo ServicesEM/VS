@@ -127,7 +127,7 @@ div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap .carousel .flex.flex-wrap.h-ful
     font-size: 14px !important;
 }
 div[data-em-sfm-type="CAROUSEL"] .flex.flex-wrap div[data-test="departing-text"]::before {
-    content: '\ebcc';
+    content: '\e935';
     font-family: 'Material Icons';
     direction: ltr;
     font-size: 15px !important;
