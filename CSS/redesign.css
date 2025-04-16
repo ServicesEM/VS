@@ -1,12 +1,3 @@
-/*Media Queries*/
-@media (max-width: 750px) {
-    .DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center div[data-em-cmp="dpa_headline"] {
-        min-height: auto!important;
-    }
-    .DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center div[data-em-cmp="dpa_headline"] > div > div.flex:only-child {
-        padding: 10px 15px !important;
-    }
-}
 /*Hero Image*/
 .HeroImage {
     position: relative;
@@ -230,4 +221,13 @@ div[data-em-sfm-type="TABLE"] table.dpa-table div[data-test="price"] {
     border-left: 2px solid #ccd4da;
     margin: 0;
     box-shadow: none;
+}
+/*Media Queries*/
+@media (max-width: 750px) {
+    body .DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center div[data-em-cmp="dpa_headline"] {
+        min-height: auto!important;
+    }
+    body .DPAHeadline.w-full.max-w-full.lg\:max-w-6xl.self-center div[data-em-cmp="dpa_headline"] > div > div.flex:only-child {
+        padding: 10px 15px !important;
+    }
 }
