@@ -8,7 +8,7 @@
     padding-right: 0 !important;
 }
 /*Premium Section*/
-section#premium, 
+/*section#premium, 
 div#premiummodule {
     max-width: inherit;
     width: 100vw;
@@ -21,7 +21,7 @@ div#premiummodule {
 section#premium .upper-class-container {
     margin: auto;
     padding: 3rem 0 1rem;
-}
+}*/
 /*Breadcrumbs*/
 .BreadCrumbs ol.breadcrumbs li a {
     color: #da0530;
